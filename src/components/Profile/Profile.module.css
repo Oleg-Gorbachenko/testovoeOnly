@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 180px;
+    height: 78px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    margin-top: 80px;
+    margin-bottom: 250px;
+}
+
+.greeting {
+    position: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    width: 200px;
+    height: 60px;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #9f9f9f;
+}
+
+.btn:disabled {
+    background: lightgray;
+    cursor: auto;
+}

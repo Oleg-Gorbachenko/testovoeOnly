@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 180px;
+    height: 78px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.loginForm {
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

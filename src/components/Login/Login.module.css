@@ -1,0 +1,31 @@
+.errorMessage {
+    background: #F5E9E9;
+    width: 640px;
+    padding: 20px 0;
+    border: 1px solid #E26F6F;
+    border-radius: 8px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.error {
+    color: #E26F6F;
+    border: 1px solid #E26F6F;
+}
+
+.errorImg {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.errorText {
+    vertical-align: bottom;
+}
